@@ -13,17 +13,17 @@ function JobListing({ title, jobType, location, remote, date, salary, companyLog
         <h1 className='text-lg text-left font-medium'>{title}</h1>
 
         <div className='flex items-center mt-2'>
-          <BriefcaseIcon className='h-5 w-5 text-icon-light' />
-          <p className='text-sm ml-1 text-icon-red-light'>{jobType}</p>
+          <BriefcaseIcon className='h-5 w-5 text-icon-red-light' />
+          <p className='text-sm ml-1 text-text-light'>{jobType}</p>
         </div>
 
         <div className='flex items-center mt-2'>
-          <MapPinIcon className='h-5 w-5 text-icon-light' />
+          <MapPinIcon className='h-5 w-5 text-icon-blue-light' />
           <p className='text-sm ml-1 text-text-light'>{location}</p>
         </div>
 
         <div className='flex items-center mt-2'>
-          <ComputerDesktopIcon className='h-5 w-5 text-icon-light' />
+          <ComputerDesktopIcon className='h-5 w-5 text-icon-orange-light' />
           <p className='text-sm ml-1 text-text-light'>{remote ? 'Remote' : 'Office-based'}</p>
         </div>
 
