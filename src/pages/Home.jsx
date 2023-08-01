@@ -4,12 +4,14 @@ import SearchBox from "../components/SearchBox";
 import Logo from "../components/Logo";
 import TitleBold from "../components/TitleBold";
 import BottomNav from "../components/BottomNav";
+import Profile from "./Profile";
 
 function Home() {
   return (
     <div className="bg-light-bg">
       <div className="p-5">
         <Logo />
+        <Profile/>
         <SearchBox />
 
         <TitleBold/>

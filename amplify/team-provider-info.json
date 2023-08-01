@@ -14,6 +14,27 @@
     "categories": {
       "auth": {
         "digitconnectorreact4690ae36": {}
+      },
+      "api": {
+        "digitconnectorreact": {}
+      }
+    }
+  },
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-digitconnectorreact-dev-132700-authRole",
+      "UnauthRoleArn": "arn:aws:iam::117845229722:role/amplify-digitconnectorreact-dev-132700-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::117845229722:role/amplify-digitconnectorreact-dev-132700-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-digitconnectorreact-dev-132700-deployment",
+      "UnauthRoleName": "amplify-digitconnectorreact-dev-132700-unauthRole",
+      "StackName": "amplify-digitconnectorreact-dev-132700",
+      "StackId": "arn:aws:cloudformation:ap-south-1:117845229722:stack/amplify-digitconnectorreact-dev-132700/02728090-3041-11ee-aeb0-0aa9074b3696",
+      "AmplifyAppId": "dkiq6lv05d4nf"
+    },
+    "categories": {
+      "auth": {
+        "digitconnectorreact4690ae36": {}
       }
     }
   }

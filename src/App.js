@@ -16,8 +16,9 @@ function App({ signOut }) {
   return (
     <div className="App bg-light-bg mx-auto max-w-[1000px]">
        <View className="App">
+       <Button onClick={signOut}>Sign Out</Button>
         <Home/>
-      <Button onClick={signOut}>Sign Out</Button>
+   
     </View>
     {/* <Home/> */}
     </div>
