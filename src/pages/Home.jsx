@@ -9,7 +9,7 @@ import Profile from "./Profile";
 function Home() {
   return (
     <div className="bg-light-bg">
-      <div className="p-5">
+      <div className="p-4">
         <Logo />
         <Profile/>
         <SearchBox />
